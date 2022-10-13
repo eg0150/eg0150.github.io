@@ -781,7 +781,7 @@ padding-left: .6rem;
 position: absolute;
 width: 420px;
 height: 150px;
-top: 6.2rem;
+top: 16.2rem;
 left: 0;
 right: 0;
 margin: 0 auto;
@@ -1641,7 +1641,7 @@ background-size: contain;
   font-weight: var(--normal);
   text-align: center;
   color: var(--charcoal);
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 .account-text-d:hover {
   border: 1px solid #333;
