@@ -1477,7 +1477,7 @@ margin-top: 1rem;
     margin-left: 5rem;
   }
   .account-text {
-    padding-top: -2.5rem;
+    padding-top: 0;
     }
   .account h2 {
     font-size: .85rem;
@@ -1653,6 +1653,7 @@ margin-top: 1rem;
   font-weight: var(--normal);
   text-align: center;
   color: var(--charcoal);
+  padding-top: 1rem;
 }
 .account-text-d:hover {
   border: 1px solid #333;
