@@ -774,7 +774,7 @@ padding-left: .6rem;
 }
 .order-text {
 position: absolute;
-top: 31vh;
+top: 22vh;
 width: 92vw;
 height: 18vh;
 left: 0;
@@ -815,7 +815,7 @@ font-size: .65rem;
 font-weight: var(--normal);
 text-align: center;
 color: var(--charcoal);
-padding-top: .8rem;
+padding-top: 1rem;
 }
 .account-text:hover {
 border: 1px solid #333;
@@ -826,7 +826,6 @@ height: 20px;
 background-position: center center;
 background-repeat: no-repeat;
 background-size: contain;
-margin-top: .5rem;
 }
 .footer-wrapper-account {
   position: absolute;
