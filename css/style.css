@@ -1209,7 +1209,6 @@ margin-top: .6rem;
   .cart-d a {
     position: absolute;
     left: 1.5rem;
-    top: 35rem;
     right: 1.5rem;
     bottom: 1.5rem;
     font-size: .65rem;
@@ -1218,6 +1217,7 @@ margin-top: .6rem;
     text-align: center;
     padding-top: .85rem;
     font-weight: var(--normal);
+    height: 2.5rem;
   }
   .cart-d a:hover {
     background-color: #999;
