@@ -327,7 +327,6 @@ header {
   object-fit: cover;
   object-position: center;
   background-repeat: no-repeat;
-
 }
 .scroll {
   scroll-snap-align: start;
@@ -506,6 +505,7 @@ header {
 .login {
   width: 100%;
   height: 100vh;
+  z-index: 400;
 }
 .login h2 {
   font-size: .8rem;
@@ -571,18 +571,22 @@ input::placeholder {
 .caption a:hover {
   color: #333;
 }
-.btn-area button {
-  width: 26.5rem;
-  height: 3rem;
-  margin-bottom: .6rem;
-  font-size: .65rem;
-  font-weight: var(--normal);
+.btn-area {
+  width: 100%;
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  line-height: 3rem;
+
+}
+.btn-area button {
+  margin-bottom: .6rem;
+  font-size: .65rem;
+  font-weight: var(--normal);
+  line-height: 2.5rem;
   cursor: pointer;
+  text-align: center;
+  width: 26.5rem;
 }
 .btn-area button:nth-child(2) {
   background-color: #444;
@@ -638,7 +642,9 @@ input::placeholder {
 .account {
   width: 100%;
   height: 100vh;
-  z-index: 400;
+  position: relative;
+  left: 0rem;
+  right: 0rem;
 }
 .account-d {
   display: none;
@@ -659,13 +665,13 @@ input::placeholder {
 
 .order {
   position: absolute;
-  width: 407px;
+  width: 100%;
   top: 9rem;
   left: 0;
   right: 0;
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+
 }
 .order-title {
 font-size: .65rem;
@@ -673,7 +679,7 @@ font-weight: 500;
 color: var(--charcoal);
 position: absolute;
 top: -20px;
-width: 407px;
+width: 100%;
 height: 50px;
 border: 1px solid #ddd;
 padding: 1rem .6rem;
@@ -700,7 +706,7 @@ position: absolute;
 top: 29px;
 }
 .order1 li {
-width: 101.75px;
+width: 105px;
 height: 50px;
 border: 1px solid #ddd;
 display: flex;
@@ -717,7 +723,7 @@ position: absolute;
 top: 4.9rem;
 }
 .order2 li {
-width: 135.8px;
+width: 140px;
 height: 50px;
 border: 1px solid #ddd;
 display: flex;
@@ -737,22 +743,27 @@ margin-left: 5.4rem;
 }
 .order-text {
 position: absolute;
-margin: 0 auto;
-top: 7rem;
+top: 7.7rem;
+height: 150px;
 left: 0;
 right: 0;
+margin: 0 auto;
+display: flex;
+justify-content: center;
 background-color: rgba(255, 255, 255, .85);
-width: 407px;
-height: 200px;
 }
 .order-text p {
+width: 100%;
 font-size: .65rem;
-text-align: center;
 color: var(--charcoal);
+display: flex;
+align-items: center;
 }
-.order-text1 {
-padding-top: 60px;
+.order-text a {
+  text-align: center;
+  width: 100%;
 }
+
 
 .account-i {
 position: absolute;
@@ -761,10 +772,10 @@ left: 0;
 right: 0;
 bottom: 1rem;
 display: grid;
-grid-template-columns: repeat(2, 195.5px);
-grid-template-rows: repeat(4,70px);
-gap: 1rem;
-width: 407px;
+grid-template-columns: repeat(2, 44vw);
+grid-template-rows: repeat(4,15vw);
+gap: 5vw;
+width: 100%;
 margin: 0 auto;
 }
 .account-text {
@@ -788,11 +799,13 @@ margin-top: .6rem;
 }
 .footer-wrapper-account {
   position: absolute;
+  background-color: transparent;
   left: 1rem;
   right: 1rem;
-  top: 42rem;
-  bottom: 1rem;
   width: 100%;
+  bottom: 1rem;
+  top: 42rem;
+  
 }
 /* Search */
 .searchbar-wrap {
@@ -876,8 +889,6 @@ margin-top: .6rem;
   border-bottom: 1px solid #333;
 }
 
-
-
 /* Footer */
 .footer {
   position: relative;
@@ -889,7 +900,7 @@ margin-top: .6rem;
   position: absolute;
   left: 1rem;
   right: 1rem;
-  top: 50%;
+  top: 19rem;
   bottom: 1rem;
   width: 100%;
   height: 100vh;
@@ -1405,9 +1416,7 @@ margin-top: .6rem;
   }
   .order {
     position: absolute;
-    left: 1.5rem;
-    right: 1.5rem;
-    top: 100px;
+    top: 6.4rem;
   }
 .order-title {
   font-size: .65rem;
@@ -1479,22 +1488,23 @@ margin-top: .6rem;
 }
 .order-text {
   position: absolute;
-  left: 1.5rem;
-  right: 1.5rem;
-  top: 80px;
   background-color: rgba(255, 255, 255, .85);
   width: 407px;
-  height: 200px;
+  height: 150px;
+  top: 5.1rem;
 }
 .order-text p {
+  width: 100%;
   font-size: .65rem;
-  text-align: center;
   color: var(--charcoal);
-}
-.order-text1 {
-  padding-top: 50px;
-}
+  display: flex;
+  align-items: center;
+  }
 
+.order-text a {
+  text-align: center;
+  width: 100%;
+}
 .account-i {
   position: absolute;
   top: 250px;
@@ -1529,14 +1539,12 @@ margin-top: .6rem;
   margin-top: .6rem;
 }
 .order-account {
-  top: 9rem;
+  top: 8.3rem;
 }
 .order-text-account {
   top: 7rem;
 }
-.order-text-account .order-text1 {
-  padding-top: 60px;
-}
+
 .account-i-2 {
   top: 18rem;
 }
