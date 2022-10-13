@@ -486,7 +486,7 @@ header {
   font-weight: 350;
   line-height: 1.5;
 }
-.footer3-cart {
+.footer3-cart a {
   margin-top: .4rem;
   font-size: .45rem;
   font-weight: 350;
@@ -631,7 +631,7 @@ input::placeholder {
   font-weight: 350;
   line-height: 1.5;
 }
-.footer3-login {
+.footer3-login a {
   margin-top: .4rem;
   font-size: .45rem;
   font-weight: 350;
@@ -1564,7 +1564,6 @@ margin-top: .6rem;
   right: 0;
   bottom: 1rem;
   }
- /* Search */
 
  /* Main */
   .grid{
