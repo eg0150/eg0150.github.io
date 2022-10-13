@@ -788,6 +788,7 @@ margin: 0 auto;
 display: flex;
 justify-content: center;
 background-color: rgba(255, 255, 255, .85);
+display: none;
 }
 .order-text p {
 width: 92vw;
@@ -1454,9 +1455,16 @@ margin-top: 1rem;
     line-height: 50px;
   }
   .order-text {
+    position: absolute;
     width: 420px;
     height: 150px;
     top: 7.7rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .85);
   }
   .order-text p {
     width: 420px;
@@ -1469,7 +1477,7 @@ margin-top: 1rem;
     margin-left: 5rem;
   }
   .account-text {
-    padding-top: -2rem;
+    padding-top: -2.5rem;
     }
   .account h2 {
     font-size: .85rem;
@@ -1481,9 +1489,6 @@ margin-top: 1rem;
     width: 420px;
     top: 18rem;
     }
-    .account-icon img {
-      margin-top: 1rem;
-      }
   .account-d {
     background-color: #fff;
     position: absolute;
