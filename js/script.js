@@ -66,7 +66,7 @@ $('#account').click(function(){
 });
 
 $(document).ready(function(){
-  $('.account-close').click(function(){
+  $('.account-close-d').click(function(){
     $('.account-d').toggleClass('active');
   })
   });
