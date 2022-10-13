@@ -770,6 +770,7 @@ color: var(--charcoal);
 border-right: none;
 }
 .order2 p {
+padding-top: .2rem;
 padding-left: .6rem;
 }
 .order2 .number {
@@ -780,7 +781,7 @@ padding-left: .6rem;
 position: absolute;
 width: 420px;
 height: 150px;
-top: 7.7rem;
+top: 6.2rem;
 left: 0;
 right: 0;
 margin: 0 auto;
@@ -1640,7 +1641,7 @@ background-size: contain;
   font-weight: var(--normal);
   text-align: center;
   color: var(--charcoal);
-  padding-top: 13px;
+  padding-top: 2rem;
 }
 .account-text-d:hover {
   border: 1px solid #333;
