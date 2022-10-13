@@ -781,7 +781,7 @@ padding-left: .6rem;
 position: absolute;
 width: 420px;
 height: 150px;
-top: -4rem;
+top: -.1rem;
 left: 0;
 right: 0;
 margin: 0 auto;
@@ -1469,7 +1469,7 @@ margin-top: 1rem;
     margin-left: 5rem;
   }
   .account-text {
-    padding-top: -1rem;
+    padding-top: -2rem;
     }
   .account h2 {
     font-size: .85rem;
