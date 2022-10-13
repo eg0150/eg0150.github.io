@@ -129,7 +129,7 @@ $(document).ready(function(){
 
     let id = $('#id');
     let pw = $('#pw');
-    let btn = $('#btn');
+    let btn = $('.btn');
 
     $(btn).on('click', function(){
       if($(id).val() === "") {

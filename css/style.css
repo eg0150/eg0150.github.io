@@ -863,15 +863,15 @@ margin-top: .6rem;
   top: 36%;
   left: 0;
   right: 0;
-  margin: 0 atuo;
+  margin: 0 auto;
   text-align: center;
 }
 .search-d p {
   position: absolute;
-  top: 21rem;
+  top: 52%;
   left: 0;
   right: 0;
-  margin: 0 atuo;
+  margin: 0 auto;
   text-align: center;
   font-size: .74rem;
   line-height: 1.7;
@@ -1009,7 +1009,7 @@ margin-top: .6rem;
     background-color: var(--charcoal);
     height: 1px;
     width: 0%;
-    transform: width .3s;
+    transition: width .3s;
     margin-top: -4px;
   }
 
@@ -1019,7 +1019,7 @@ margin-top: .6rem;
   }
 
   .top-nav span {
-    font-size: .5rem;
+    font-size: .65rem;
     margin-top: .5rem;
     font-weight: var(--normal);
     color: var(--charcoal);
@@ -1200,24 +1200,30 @@ margin-top: .6rem;
   }
   .cart-d p {
     position: absolute;
-    top: 6.25rem;
+    top: 8.25rem;
     left: 1.5rem;
     font-size: .65rem;
     font-weight: var(--normal);
     color: #555;
   }
-  .cart-d a {
+  .cart-d-text {
     position: absolute;
-    left: 1.5rem;
-    right: 1.5rem;
+    left: 0;
+    right: 0;
     bottom: 1.5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .cart-d-text a {
+    width: 423px;
+    height: 2.5rem;
     font-size: .65rem;
     background-color: #555;
     color: #fff;
     text-align: center;
-    padding-top: .85rem;
     font-weight: var(--normal);
-    height: 2.5rem;
+    padding-top: .8rem
   }
   .cart-d a:hover {
     background-color: #999;
@@ -1278,7 +1284,7 @@ margin-top: .6rem;
     font-size: .75rem;
     font-weight: 400;
     position: absolute;
-    top: 11rem;
+    top: 12rem;
     left: 1.5rem;
     color: var(--charcoal);
     letter-spacing: .05rem;
@@ -1308,7 +1314,7 @@ margin-top: .6rem;
   }
   .login-form-d {
     position: absolute;
-    top: 13rem;
+    top: 14rem;
   }
   .int-area-d {
     width: 407px;
@@ -1416,7 +1422,7 @@ margin-top: .6rem;
   }
   .order {
     position: absolute;
-    top: 6.4rem;
+    top: 7.4rem;
   }
 .order-title {
   font-size: .65rem;
@@ -1491,7 +1497,7 @@ margin-top: .6rem;
   background-color: rgba(255, 255, 255, .85);
   width: 407px;
   height: 150px;
-  top: 5.1rem;
+  top: 6.1rem;
 }
 .order-text p {
   width: 100%;
@@ -1507,7 +1513,7 @@ margin-top: .6rem;
 }
 .account-i {
   position: absolute;
-  top: 250px;
+  top: 17rem;
   bottom: 1rem;
   display: grid;
   grid-template-columns: repeat(2, 195.5px);
@@ -1596,36 +1602,35 @@ margin-top: .6rem;
     position: fixed;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     top: 83%;
-    left: 1.5rem;
-    right: 1.5rem;
+    left: 0;
+    right: 0;
     width: 100%;
     margin: 0 auto;
   }
 
   .footer1, .footer2 a, .footer3 a, .footer4, .footer5 {
-    font-size: .4rem;
+    font-size: .6rem;
     line-height: 1.5;
   }
-  .footer1 {
-    margin-right: 5.3rem;
-  }
+ 
   .footer2 {
     margin-top: 0;
-    margin-right: 5.3rem;
+   
   }
   .footer3 {
     margin-top: 0rem;
     display: flex;
     flex-direction: column;
-    margin-right: 5.3rem;
+   
   }
   .footer3 a:nth-child(2) {
     margin-left: 0;
   }
   .footer4 {
     margin-top: 0rem;
-    margin-right: 5.3rem;
+   
   }
   .footer5 {
     margin-top: 0;
