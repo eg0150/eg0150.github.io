@@ -798,7 +798,7 @@ align-items: center;
 
 .account-i {
 position: absolute;
-top: 53vh;
+top: 51vh;
 left: 0;
 right: 0;
 bottom: 1rem;
@@ -815,7 +815,7 @@ font-size: .65rem;
 font-weight: var(--normal);
 text-align: center;
 color: var(--charcoal);
-padding-top: 13px;
+padding-top: .8rem;
 }
 .account-text:hover {
 border: 1px solid #333;
@@ -835,7 +835,7 @@ margin-top: .5rem;
   right: 1rem;
   width: 100%;
   bottom: 1rem;
-  top: 42rem;  
+  top: 45rem;  
 }
 /* Search */
 .searchbar-wrap {
@@ -1269,6 +1269,7 @@ margin-top: .5rem;
   }
   .login-form {
     width: 420px;
+
   }
   .int-area {
     width: 420px;
