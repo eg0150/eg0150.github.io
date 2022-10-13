@@ -774,7 +774,7 @@ padding-left: .6rem;
 }
 .order-text {
 position: absolute;
-top: 22vh;
+top: 0;
 width: 92vw;
 height: 18vh;
 left: 0;
