@@ -1652,7 +1652,7 @@ margin-top: 1rem;
   font-weight: var(--normal);
   text-align: center;
   color: var(--charcoal);
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 .account-text-d:hover {
   border: 1px solid #333;
