@@ -821,7 +821,6 @@ font-size: .65rem;
 font-weight: var(--normal);
 text-align: center;
 color: var(--charcoal);
-padding-top: 2rem;
 }
 .account-text:hover {
 border: 1px solid #333;
