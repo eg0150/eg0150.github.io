@@ -781,7 +781,6 @@ padding-left: .6rem;
 position: absolute;
 width: 420px;
 height: 150px;
-top: 7.7rem;
 left: 0;
 right: 0;
 margin: 0 auto;
@@ -831,7 +830,7 @@ height: 20px;
 background-position: center center;
 background-repeat: no-repeat;
 background-size: contain;
-margin-top: .5rem;
+margin-top: 1rem;
 }
 .footer-wrapper-account {
   position: absolute;
@@ -1469,7 +1468,7 @@ margin-top: .5rem;
     margin-left: 5rem;
   }
   .account-text {
-    padding-top: 0;
+    padding-top: -1rem;
     }
   .account h2 {
     font-size: .85rem;
@@ -1481,6 +1480,9 @@ margin-top: .5rem;
     width: 420px;
     top: 18rem;
     }
+    .account-icon img {
+      margin-top: 1rem;
+      }
   .account-d {
     background-color: #fff;
     position: absolute;
