@@ -17,7 +17,6 @@ html {
   scroll-behavior: smooth;
   max-width: 100vw;
   max-height: 100vh;
-
 }
 body {
   color: #333;
@@ -315,8 +314,7 @@ header {
   width: 100%;
   height: 100vh;
   display: grid;
-  grid-template-columns: repeat(1,100vw);
-  grid-template-rows: repeat(6,100vh);
+
   overflow: auto;
   scroll-snap-type: y mandatory;
 }
@@ -325,7 +323,7 @@ header {
   width: 100%;
   height: 100vh;
   object-fit: cover;
-  object-position: center;
+  object-position: center center;
   background-repeat: no-repeat;
 }
 .scroll {
@@ -821,7 +819,7 @@ font-size: .65rem;
 font-weight: var(--normal);
 text-align: center;
 color: var(--charcoal);
-padding-top: 2rem;
+padding-top: 1rem;
 }
 .account-text:hover {
 border: 1px solid #333;
@@ -1477,7 +1475,7 @@ margin-top: 1rem;
     margin-left: 5rem;
   }
   .account-text {
-    padding-top: 2rem;
+    padding-top: .5rem;
     }
   .account h2 {
     font-size: .85rem;
