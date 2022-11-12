@@ -44,9 +44,11 @@ section {
 /* Header */
 header {
   position: relative;
+  width: 100vw;
 }
 .navbar {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   padding: 0 1rem 0;
   align-items: center;
@@ -65,14 +67,13 @@ header {
   color: var(--charcoal);
   text-align: center;
   position: fixed;
-  top: .8rem;
+  top: 1rem;
   left: 0;
   right: 0;
   margin: 0 auto;
-  z-index: 300;
+  z-index: 500;
   display: inline-block;
 }
-
 .logo-cart {
   font-family: 'Alata', sans-serif;
   font-style: normal;
@@ -84,11 +85,12 @@ header {
   position: fixed;
   top: .8rem;
   left: 0;
-  right: 0;
+  right: 1rem;
   margin: 0 auto;
   z-index: 500;
   display: inline-block;
 }
+
 .right-menu {
   display: none;
 }
@@ -320,11 +322,12 @@ header {
 }
 
 .grid-item {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   object-fit: cover;
   object-position: center center;
   background-repeat: no-repeat;
+
 }
 .scroll {
   scroll-snap-align: start;
@@ -342,7 +345,7 @@ header {
   left: 0;
   margin: 0 auto;
   background-color: #fff;
-  width: 100%;
+  width: 100vw;
   height: 7vh;
   z-index: 500;
   top: 0;
@@ -357,6 +360,7 @@ header {
   font-weight: var(--normal);
   z-index: 500;
   right: 1rem;
+  
 }
 .cart {
   width: 100%;
@@ -477,9 +481,10 @@ header {
   font-size: .45rem;
   font-weight: 350;
   line-height: 1.5;
+  margin-top: .4rem;
 }
 .footer2-cart {
-  margin-top: .4rem;
+  margin-top: -.1rem;
 }
 .footer2-cart ul li {
   display: inline-flex;
@@ -490,8 +495,10 @@ header {
   font-weight: 350;
   line-height: 1.5;
 }
+.footer3-cart {
+  margin-top: -.1rem;
+}
 .footer3-cart a {
-  margin-top: .4rem;
   font-size: .45rem;
   font-weight: 350;
   line-height: 1.5;
@@ -503,7 +510,7 @@ header {
   line-height: 1.5;
 }
 .footer5-cart {
-  margin-top: .4rem;
+  margin-top: .3rem;
   font-size: .45rem;
   font-weight: 350;
   line-height: 1.5;
@@ -623,9 +630,10 @@ input::placeholder {
   font-size: .45rem;
   font-weight: 350;
   line-height: 1.5;
+  margin-top: .4rem;
 }
 .footer2-login {
-  margin-top: .4rem;
+  margin-top: -.1rem;
 }
 .footer2-login ul li {
   display: inline-flex;
@@ -636,8 +644,10 @@ input::placeholder {
   font-weight: 350;
   line-height: 1.5;
 }
+.footer3-login {
+  margin-top: -.1rem;
+}
 .footer3-login a {
-  margin-top: .4rem;
   font-size: .45rem;
   font-weight: 350;
   line-height: 1.5;
@@ -649,7 +659,7 @@ input::placeholder {
   line-height: 1.5;
 }
 .footer5-login {
-  margin-top: .4rem;
+  margin-top: .3rem;
   font-size: .45rem;
   font-weight: 350;
   line-height: 1.5;
@@ -657,7 +667,7 @@ input::placeholder {
 
 /* Account */
 .account {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   position: relative;
   left: 0;
@@ -672,137 +682,16 @@ input::placeholder {
   font-size: .75rem;
   font-weight: 400;
   position: absolute;
-  top: 5rem;
+  top: 15%;
   left: 0;
   right: 0;
   text-align: center;
   color: var(--charcoal);
   letter-spacing: .05rem;
 }
-
-.order {
-  position: absolute;
-  width: 100%;
-  top: 9rem;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-
-}
-.order-title {
-font-size: .65rem;
-font-weight: 500;
-color: var(--charcoal);
-position: absolute;
-
-left: 0;
-right: 0;
-margin: 0 auto;
-width: 420px;
-height: 50px;
-top: -20px;
-padding: 1rem .6rem;
-border: 1px solid #ddd;
-padding: .5rem .6rem;
-display: flex;
-}
-.order-title p {
-margin-right: .2rem;
-}
-.order-title small {
-color: #888;
-font-weight: var(--normal);
-}
-.order ul {
-display: flex;
-flex-direction: row;
-font-size: .65rem;
-}
-.order .number {
-font-weight: 500;
-color: var(--charcoal);
-}
-.order1 {
-position: absolute;
-left: 0;
-right: 0;
-margin: 0 auto;
-width: 420px;
-height: 50px;
-top: 29px;
-}
-.order1 li {
-width: 105px;
-height: 50px;
-line-height: 20px;
-border: 1px solid #ddd;
-display: flex;
-flex-direction: column;
-text-align: center;
-color: var(--charcoal);
-}
-.order1 li:nth-child(1), .order1 li:nth-child(2),  .order1 li:nth-child(3) {
-border-right: none;
-}
-.order2 {
-position: absolute;
-width: 420px;
-height: 50px;
-top: 4.9rem;
-left: 0;
-right: 0;
-margin: 0 auto;
-}
-.order2 li {
-
-border: 1px solid #ddd;
-display: flex;
-flex-direction: row;
-width: 140px;
-height: 50px;
-line-height: 50px;
-color: var(--charcoal);
-}
-.order2 li:nth-child(1), .order2 li:nth-child(2) {
-border-right: none;
-}
-.order2 p {
-padding-top: .2rem;
-padding-left: .6rem;
-}
-.order2 .number {
-  text-align: right;
-  margin-left: 16vw;
-}
-.order-text {
-position: absolute;
-width: 420px;
-height: 150px;
-top: -.1rem;
-left: 0;
-right: 0;
-margin: 0 auto;
-display: flex;
-justify-content: center;
-background-color: rgba(255, 255, 255, .85);
-display: none;
-}
-.order-text p {
-width: 92vw;
-font-size: .65rem;
-color: var(--charcoal);
-display: flex;
-align-items: center;
-}
-.order-text a {
-  text-align: center;
-  width: 92vw;
-}
-
 .account-i {
 position: absolute;
-top: 51vh;
+top: 25%;
 left: 0;
 right: 0;
 bottom: 1rem;
@@ -839,7 +728,7 @@ margin-top: 1rem;
   right: 1rem;
   width: 100%;
   bottom: 1rem;
-  top: 45rem;  
+  top: 100%;  
 }
 /* Search */
 .searchbar-wrap {
@@ -1426,58 +1315,11 @@ margin-top: 1rem;
     top: 53vh;
   }
   /* Account */
-  .order-title {
-    width: 420px;
-    height: 50px;
-    top: -20px;
-    padding: 1rem .6rem;
-  }
-  .order1 {
-    width: 420px;
-    height: 50px;
-    top: 29px;
-  }
-  .order1 li {
-    width: 105px;
-    height: 50px;
-    line-height: 20px;
-  }
-  .order2 {
-    width: 420px;
-    height: 50px;
-    top: 4.9rem;
-  }
-  .order2 li {
-    width: 140px;
-    height: 50px;
-    line-height: 50px;
-  }
-  .order-text {
-    position: absolute;
-    width: 420px;
-    height: 150px;
-    top: 7.7rem;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, .85);
-  }
-  .order-text p {
-    width: 420px;
-  }
-  .order-text a {
-    width: 420px;
-  }
-  .order2 .number {
-    text-align: right;
-    margin-left: 5rem;
-  }
   .account-text {
     padding-top: .5rem;
     }
   .account h2 {
+    top: 15%;
     font-size: .85rem;
   }
   .account-i {
@@ -1485,7 +1327,7 @@ margin-top: 1rem;
     grid-template-rows: repeat(4,70px);
     gap: 16px;
     width: 420px;
-    top: 18rem;
+    top: 25%;
     }
   .account-d {
     background-color: #fff;
@@ -1670,8 +1512,6 @@ margin-top: 1rem;
   flex-direction: row;
   justify-content: space-around;
   line-height: 1.7;
-  left: 0;
-  right: 0;
   bottom: 1rem;
   }
 
